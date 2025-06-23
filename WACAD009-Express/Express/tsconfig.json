@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                // Gera código JS moderno
+    "module": "commonjs",           // Suporte a require() do Node
+    "rootDir": "src",               // Onde estão seus arquivos .ts
+    "outDir": "build",              // Onde os arquivos .js serão gerados
+    "esModuleInterop": true,        // Permite usar importações do tipo 'import x from y'
+    "strict": true                  // Ativa checagens mais rígidas
+  },
+  "include": ["src/**/*"],          // Compila todos os arquivos .ts da pasta src
+  "exclude": ["node_modules"]       // Ignora node_modules
+}
